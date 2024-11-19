@@ -1,0 +1,682 @@
+/* .list  li{ */
+ 
+/* display: flex; */
+
+/* display: inline-block ; */
+/* padding: 1px 23px; */
+/* box-sizing: border-box; */
+/* position: absolute; */
+/* top:30px; */
+/* left: 20px; */
+/* color: rgb(235, 40, 66); */
+/* bottom: 40px; */
+/* right: 10px; */
+
+
+/* } */
+
+
+/* .image img{ */
+/* display: flex; */
+/* width: 1409px;
+height: 990px; */
+/* position:absolute; */
+/* bottom: 20px; */
+/* background-image: none; */
+/* } */
+
+
+
+/* 
+.list{
+    position: relative;
+}
+
+.list li{
+
+left: 10px;
+right: 100px;
+} */
+
+
+
+.header img{
+height: 550px;
+    width: 1423px;
+}
+
+
+.hello{
+    position: absolute;
+    /* bottom: 0px; */
+background-image:none;
+top: 20px;
+
+}
+
+
+
+
+.image img{
+    width: 30px;
+margin-left: 20px;
+
+}
+
+.image{
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 0px
+
+}
+
+
+
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+   /* background-color: rgb(42, 43, 44); */
+   margin-left: 140px;
+   color: aliceblue;
+}
+
+.STORE{
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+   /* background-color: aliceblue; */
+   margin-left: 190px ;
+
+}
+.mac{
+    display: inline-block;
+    padding:10px;
+    position: absolute;
+    top: 20px;
+    margin-left: 250px ;
+    /* background-color: aliceblue; */
+    list-style: none
+    
+    
+    
+    
+    
+    ;
+}
+
+
+.ipad{
+    display: inline-block;
+    padding:10px;
+    position: absolute;
+    top: 20px;
+    margin-left: 300px ;
+    /* background-color: aliceblue; */
+    /* color: rgb(228, 236, 236); */
+}
+.iphone{
+    display: inline-block;
+    padding: 10px;;
+    position: absolute;
+    top: 20px;
+   /* background-color: aliceblue; */
+margin-left: 355px ;
+}
+.iphone16{
+position: relative;
+top: 50px;
+
+
+}
+
+.watch{
+
+    display: inline-block;
+    padding: 10px;;
+    position: absolute;
+    top: 20px;
+   /* background-color: aliceblue; */
+margin-left: 410px ;
+
+}
+
+.airpod{
+    display: inline-block;
+    padding: 10px;;
+    position: absolute;
+    top: 20px;
+   /* background-color: aliceblue; */
+margin-left: 460px ;
+
+
+}
+
+.vision{
+    display: inline-block;
+    padding: 10px;;
+    position: absolute;
+    top: 20px;
+   /* background-color: aliceblue; */
+margin-left: 520px ;
+
+}
+
+
+
+.home{
+    display: inline-block;
+    padding: 10px;;
+    position: absolute;
+    top: 20px;
+   /* background-color: aliceblue; */
+margin-left: 590px ;
+
+
+}
+
+.Entertainment{
+    display: inline-block;
+    padding: 10px;;
+    position: absolute;
+    top: 20px;
+   /* background-color: aliceblue; */
+margin-left: 650px ;
+
+}
+.Accesseries{
+    display: inline-block;
+    padding: 10px;;
+    position: absolute;
+    top: 20px;
+   /* background-color: aliceblue; */
+margin-left: 820px ;
+
+}
+
+.support{
+    display: inline-block;
+    padding: 10px;;
+    position: absolute;
+    top: 20px;
+   /* background-color: aliceblue; */
+margin-left: 750px ;
+
+}
+
+
+
+
+
+
+
+
+
+.searchlogo{
+    display: inline-block;
+    padding: 10px;;
+    position: absolute;
+    top: 20px;
+   /* background-color: rgb(222, 231, 238); */
+margin-left: 920px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+.shoppingbaglogo{
+    display: inline-block;
+    padding: 10px;;
+    position: absolute;
+    top: 15px;
+   /* background-color: aliceblue; */
+margin-left: 1000px ;
+
+}
+
+
+
+.image a{
+color: rgb(39, 42, 44);
+
+}
+
+
+
+.Magic{
+    position: absolute;
+    text-align: center;
+    top: 140px;;
+    left: 600px;
+    color: aliceblue;
+}
+
+.Magic button{
+    background-color: rgb(92, 92, 165);
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+
+
+
+
+.foot img{
+    position: absolute;
+top: 620px;
+/* left: 20px; */
+right:  -8px;
+width: 1500px;
+height: 500px;
+}
+
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+
+
+
+
+.iphon{
+    width: 1500px;
+    position: absolute;
+    top: 650px;
+    height: 600px;
+}
+
+
+
+
+.footer{
+    position: absolute;
+    text-align: center;
+    top: 1000px;;
+    left: 600px;
+    color: aliceblue;
+}
+
+.footer button{
+    background-color: rgb(92, 92, 165);
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+
+
+.ipho{
+    width: 1450px;
+    position: absolute;
+    top: 1200px;
+    height: 500px;
+}
+
+
+
+
+.for{
+    position: absolute;
+    text-align: center;
+    top: 1500px;;
+    left: 610px;
+    color: rgb(25, 27, 29);
+}
+
+.for button{
+    background-color: rgb(92, 92, 165);
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+
+
+
+.pho{
+    width: 750px;
+    position: absolute;
+    top: 1700px;
+    height: 500px;
+    display: flex;
+}
+
+
+
+
+.of{
+    position: absolute;
+    text-align: center;
+    top: 1700px;;
+    left: 200px;
+    color: rgb(25, 27, 29);
+}
+
+.of button{
+    background-color: rgb(92, 92, 165);
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+
+.ho{
+    width: 750px;
+    position: absolute;
+    top: 1700px;
+    height: 500px;
+    display: flex;
+    left: 682px;
+}
+
+
+
+
+.f{
+    position: absolute;
+    text-align: center;
+    top: 1950px;;
+    left: 1000px;
+    color: rgb(229, 237, 245);
+}
+
+.f button{
+    background-color: rgb(92, 92, 165);
+    border: 2px solid rgb(15, 14, 14);
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+
+
+
+
+.call{
+    width: 700px;
+    position: absolute;
+    top: 2210px;
+    height: 500px;
+    display: flex;
+    
+}
+
+
+
+
+.that{
+    position: absolute;
+    text-align: center;
+    top: 2200px;;
+    left: 200px;
+    color: rgb(31, 34, 36);
+}
+
+.that button{
+    background-color: rgb(92, 92, 165);
+    border: 2px solid rgb(15, 14, 14);
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+}
+
+
+
+
+.what{
+    width: 800px;
+    position: absolute;
+    top: 2200px;
+    height: 520px;
+    display: flex;
+    left: 710px;
+    
+}
+
+
+
+
+.yeah{
+    position: absolute;
+    text-align: center;
+    top: 2200px;;
+    left: 1000px;
+    color: rgb(31, 34, 36);
+}
+
+.yeah button{
+    background-color: rgb(92, 92, 165);
+    border: 2px solid rgb(15, 14, 14);
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+}
+
+
+.list p{
+    position: absolute;
+    top: 2700px;
+}
+.para{
+    position: absolute;
+    top: 2730px;
+}
+
+
+.paragraph{
+    position: absolute;
+top: 2850px;
+}
+
+
+.paragraph3{
+    position: absolute;
+    top: 2890px;
+}
+
+.paragraph4{
+    position: absolute;
+    top: 2930px ;
+}
+
+
+.paragraph5{
+    position: absolute;
+    top: 2970px;
+}
+
+.paragraph6{
+position: absolute;
+top: 3030px;
+
+}
+
+.paragraph7{
+position: absolute;
+top: 3050px;
+
+}
+
+.paragraph8{
+    position: absolute;
+    top: 3090px;
+}
+
+
+.paragraph9{
+position: absolute;
+top: 3130px;
+font-size: small;
+}
+
+.paragraph10{
+position: absolute;
+top: 3450px;
+
+}
+
+.paragraph11{
+position: absolute;
+top: 3500px;
+font-size: small;
+}
+
+
+.paragraph12{
+position: absolute;
+top: 3090px;
+left: 300px;
+}
+
+
+.paragraph13{
+position: absolute;
+top: 3130px;
+left: 300px;
+font-size: small;
+}
+
+
+.paragraph14{
+position: absolute;
+top: 3250px;
+left: 290px;
+}
+
+.paragraph15{
+position: absolute;
+top: 3300px;
+left: 290px;
+}
+
+.paragraph16{
+position: absolute;
+top: 3090px;
+left: 550px;
+}
+
+.paragraph17{
+position: absolute;
+top:3150px ;
+left:550px ;
+}
+
+.paragraph18{
+
+position: absolute;
+top: 3090px;
+left: 750px;
+
+}
+
+.paragraph19{
+position: absolute;
+top: 3150px;
+left: 760px;
+font-size: small;
+}
+
+.paragraph20{
+    position: absolute;
+    top: 3200px;
+    left: 760px;
+}
+
+
+.paragraph21{
+    position: absolute;
+    top: 3250px;
+    left: 760px;
+    font-size: small;
+}
+
+.paragraph22{
+    position: absolute;
+    top: 3320px;
+    left: 760px;
+}
+
+.paragraph23{
+    position: absolute;
+    top: 3370px;
+    left: 760px;
+font-size: small;
+
+}
+
+.paragraph24{
+    position: absolute;
+    top: 3480px;
+    left: 760px;
+
+}
+
+.paragraph25{
+    position: absolute;
+    top: 3530px;
+    left: 760px;
+font-size: small;
+}
+
+
+.paragraph26{
+    position: absolute;
+    top: 3090px;
+    left: 1050px;
+}
+
+.paragraph27{
+    position: absolute;
+    top: 3150px;
+    left: 1050px;
+font-size: small;
+}
+
+.paragraph28{
+    position: absolute;
+    top: 3630px;
+    left: 0px;
+font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
