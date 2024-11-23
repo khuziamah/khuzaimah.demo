@@ -1,675 +1,1341 @@
-/* .list  li{ */
- 
-/* display: flex; */
-
-/* display: inline-block ; */
-/* padding: 1px 23px; */
-/* box-sizing: border-box; */
-/* position: absolute; */
-/* top:30px; */
-/* left: 20px; */
-/* color: rgb(235, 40, 66); */
-/* bottom: 40px; */
-/* right: 10px; */
-
-
-/* } */
-
-
-/* .image img{ */
-/* display: flex; */
-/* width: 1409px;
-height: 990px; */
-/* position:absolute; */
-/* bottom: 20px; */
-/* background-image: none; */
-/* } */
-
-
-
-/* 
-.list{
-    position: relative;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.list li{
 
-left: 10px;
-right: 100px;
+
+
+
+.top_bar li{
+display: flex;    
+display: inline-block;
+}
+
+
+.top_bar button{
+display: inline-block;
+/* position: absolute; */
+
+}
+
+
+
+
+.English{
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+left: 1320px
+}
+
+
+
+.top_bar{
+    background-color:#EEEEEE;
+height: 50px; 
+color: #666666;
+}
+
+
+.whatsapp_image{
+    height: 10px;
+position: absolute;
+left: 500px;
+top: 28px;
+}
+
+.whatsapp_text{
+display: inline-block;
+margin-left: 300px;
+color: #666666;
+}
+
+
+
+
+.react_whatsapp{
+border: 1px solid #666666;
+background-color: #666666;
+position: absolute;
+top: 8px;
+/* margin-left: 30px; */
+
+}
+
+
+.whitespace-nowrap{
+    margin-left: 150px;
+    /* margin-top: 50px; */
+}
+
+.w-fititems-center{
+    position: absolute;
+    left:0;
+}
+
+
+.phone{
+    position: absolute;
+    left: 270px;
+    top: 25px;
+    color:#666666
+}   
+
+.number{
+    position:absolute;
+    left: 290px;
+    top: 10px;
+color: #666666
+}
+
+
+
+
+
+.saylanilogo img{
+width: 250px;
+height: 100px;
+}
+
+
+.saylanilogo{
+    display: flex;
+}
+
+
+
+.websites{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+
+
+.About{
+    position: absolute;
+    top:  80px;
+    left: 400px;
+}
+
+
+.Service{
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+
+
+.media{
+    position: absolute;
+    top: 80px;
+    left: 600px;
+}
+
+
+
+.ConTact{
+    position: absolute;
+    top: 80px;
+    left: 700px;
+}
+
+
+
+.Bank{
+    position: absolute;
+    top: 80px;
+    left: 820px;
+}
+
+
+.other{
+    position: absolute;
+    top: 80px;
+    left: 970px;
+}
+
+
+.Donate button{
+    background-color:#0D6DB7 ;
+    width: 150px;
+    height: 60px;
+position: absolute;
+left: 1100px;
+top: 80px;
+border: 1px solid;
+border-radius: 5px;
+}
+
+
+.Sponsor button{
+    background-color: #8DC63F;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+left: 1260px;
+top: 80px;
+border: 1px solid;
+border-radius: 5px;
+}
+
+
+.imageofsaylani{
+position: absolute;
+left: 650px;
+
+}
+
+
+
+
+.text{
+display: flex;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.textpara {
+    position: absolute;
+    top: 300px;
+    /* background-color: red; */
+left: 80px;
+z-index: 1;
+}
+
+ 
+
+.circle img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 240px;
+    left: 140px;
+    
+}
+
+
+.footer p{
+    position: absolute;
+    top: 470px;
+    left: 80px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Welfare{
+    position: absolute;
+    top: 540px;
+    left: 80px;
+    font-size: large;
+}
+
+.local{
+    position: absolute;
+    top: 570px;
+    left: 80px;
+    font-size: large;
+}   
+
+.more{
+    position: absolute;
+    top: 600px;
+    left: 80px;
+    font-size: large;
+}
+
+.explore button img{
+height: 50px;
+width: 70px;
+
+}
+
+.explore button{
+    position: absolute;
+    top: 650px;
+    left: 80px;
+}
+
+
+
+
+.imageofsaylani img{
+    height: 600px;
+    position: absolute;
+    left: 150px;
+}
+
+.general{
+    background-color: #F0FCDB;
+    position: absolute;
+    top: 790px;
+    width: 1150px;
+    height: 150px;
+    display: flex;
+    left: 180px;
+    /* right: 40px; */
+    align-items: center;
+}
+
+
+.general button{
+    height: 50px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #424242;
+    color: white;
+
+}
+
+
+
+    .general input{
+        height: 50px;
+    }
+
+
+.RS{
+    position: absolute;
+    left: 218px;
+}
+
+
+.Treatment {
+    height: 60px;
+    position: absolute;
+    top: 840px;
+    left: 480px;
+    align-items: center;
+    border-radius: 5px;
+    font-size: medium;
+    background-color: white;
+}
+.family {
+    height: 50px;
+    position: absolute;
+    top: 840px;
+    left: 740px;
+    align-items: center;
+    width: 150px;
+    border-radius: 5px;
+    height: 60px;
+    font-size: large;
+    background-color: white;
+
+}
+
+
+.Medical {
+    height: 50px;
+    position: absolute;
+    top: 840px;
+    left: 900px;
+    align-items: center;
+    width: 120px;
+    border-radius: 5px;
+    height: 60px;
+    background-color: white;
+
+    font-size: large;
+}
+
+
+.food {
+    background-color: white;
+
+    height: 50px;
+    position: absolute;
+    top: 840px;
+    left: 1040px;
+    align-items: center;
+    width: 110px;
+    border-radius: 5px;
+    height: 60px;
+    font-size: large;
+}
+
+
+
+
+.dot {
+    height: 50px;
+    position: absolute;
+    background-color: #8DC63F;
+
+    top: 840px;
+    left: 1170px;
+    align-items: center;
+    width: 150px;
+    border-radius: 5px;
+    height: 60px;
+    font-size: large;
+}
+
+.bakra img{
+    position: absolute;
+    top: 970px;
+    left: 180px;
+    width: 1150px;
+}
+
+
+
+.nate {
+    height: 50px;
+    position: absolute;
+    background-color: #8DC63F;
+
+    top: 1620px;
+    left: 1090px;
+    align-items: center;
+    width: 250px;
+    border-radius: 5px;
+    height: 60px;
+    font-size: large;
+}
+
+.heading1{
+    position: absolute;
+    top: 1750px;
+left: 600px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/* .medicalo{
+    position: absolute;
+    top: 1300px;
+    background-color:#F0FCDB;
+    left: 250px;
+    width: 150px;
+} */
+
+
+/* .onlinesadqah{
+    position: absolute;
+    top: 1300px;
+    background-color:#F0FCDB;
+    left: 500px;
+    width: 150px;
+    height: 200px;
 } */
 
 
 
-.header img{
-height: 550px;
-    width: 1423px;
-}
 
 
-.hello{
+
+/* .cleanwater{
     position: absolute;
-    /* bottom: 0px; */
-background-image:none;
-top: 20px;
-
+    top: 1300px;
+    background-color:#F0FCDB;
+    left: 700px;
+    width: 150px;
 }
 
 
-
-
-.image img{
-    width: 30px;
-margin-left: 20px;
-
-}
-
-.image{
-    display: flex;
+.education{
     position: absolute;
+    top: 1300px;
+    background-color:#F0FCDB;
+    left: 950px;
+    width: 150px;
+}
+
+
+.fodoo{
+    position: absolute;
+    top: 1300px;
+    background-color:#F0FCDB;
+    left: 1150px;
+    width: 150px;
+} */
+
+
+
+/* .khuzaimah{
+    position: absolute;
+    top: 1300px;
+    background-color:#F0FCDB;
     left: 0px;
-    top: 0px
+    width: 150px;
+    z-index: 1px;
+    height: 150;
+}  */
 
-}
 
-
-
-
-.logo{
-    display: inline-block;
+.fare{
     position: absolute;
-    top: 20px;
-   /* background-color: rgb(42, 43, 44); */
-   margin-left: 140px;
-   color: aliceblue;
-}
-
-.STORE{
-    display: inline-block;
-    padding: 10px;
-    position: absolute;
-    top: 20px;
-   /* background-color: aliceblue; */
-   margin-left: 190px ;
-
-}
-.mac{
-    display: inline-block;
-    padding:10px;
-    position: absolute;
-    top: 20px;
-    margin-left: 250px ;
-    /* background-color: aliceblue; */
-    list-style: none
-    
-    
-    
-    
-    
-    ;
-}
-
-
-.ipad{
-    display: inline-block;
-    padding:10px;
-    position: absolute;
-    top: 20px;
-    margin-left: 300px ;
-    /* background-color: aliceblue; */
-    /* color: rgb(228, 236, 236); */
-}
-.iphone{
-    display: inline-block;
-    padding: 10px;;
-    position: absolute;
-    top: 20px;
-   /* background-color: aliceblue; */
-margin-left: 355px ;
-}
-.iphone16{
-position: relative;
-top: 50px;
-
-
-}
-
-.watch{
-
-    display: inline-block;
-    padding: 10px;;
-    position: absolute;
-    top: 20px;
-   /* background-color: aliceblue; */
-margin-left: 410px ;
-
-}
-
-.airpod{
-    display: inline-block;
-    padding: 10px;;
-    position: absolute;
-    top: 20px;
-   /* background-color: aliceblue; */
-margin-left: 460px ;
-
-
-}
-
-.vision{
-    display: inline-block;
-    padding: 10px;;
-    position: absolute;
-    top: 20px;
-   /* background-color: aliceblue; */
-margin-left: 520px ;
-
-}
-
-
-
-.home{
-    display: inline-block;
-    padding: 10px;;
-    position: absolute;
-    top: 20px;
-   /* background-color: aliceblue; */
-margin-left: 590px ;
-
-
-}
-
-.Entertainment{
-    display: inline-block;
-    padding: 10px;;
-    position: absolute;
-    top: 20px;
-   /* background-color: aliceblue; */
-margin-left: 650px ;
-
-}
-.Accesseries{
-    display: inline-block;
-    padding: 10px;;
-    position: absolute;
-    top: 20px;
-   /* background-color: aliceblue; */
-margin-left: 820px ;
-
-}
-
-.support{
-    display: inline-block;
-    padding: 10px;;
-    position: absolute;
-    top: 20px;
-   /* background-color: aliceblue; */
-margin-left: 750px ;
-
-}
-
-
-
-
-
-
-
-
-
-.searchlogo{
-    display: inline-block;
-    padding: 10px;;
-    position: absolute;
-    top: 20px;
-   /* background-color: rgb(222, 231, 238); */
-margin-left: 920px ;
-
-}
-
-
-
-
-
-
-
-
-
-
-.shoppingbaglogo{
-    display: inline-block;
-    padding: 10px;;
-    position: absolute;
-    top: 15px;
-   /* background-color: aliceblue; */
-margin-left: 1000px ;
-
-}
-
-
-
-.image a{
-color: rgb(39, 42, 44);
-
-}
-
-
-
-.Magic{
-    position: absolute;
+    top: 1450px;
+    background-color:#F0FCDB ;
+    width: 150px;
     text-align: center;
-    top: 140px;;
-    left: 600px;
-    color: aliceblue;
-}
-
-.Magic button{
-    background-color: rgb(92, 92, 165);
-    border: 2px solid black;
-    border-radius: 20px;
-    height: 50px;
-    width: 100px;
+    
 }
 
 
-
-
-
-.foot img{
+.medi{
     position: absolute;
-top: 620px;
-/* left: 20px; */
-right:  -8px;
-width: 1500px;
-height: 500px;
+    top: 1450px;
+    background-color:#F0FCDB ;
+    width: 150px;
+    text-align: center;
+    left: 250px;
+    
+}
+.sadqah{
+    position: absolute;
+    top: 1500px;
+    background-color:#F0FCDB ;
+    width: 150px;
+    text-align: center;
+    left: 500px;
+    
 }
 
 
-    ::-webkit-scrollbar {
-        display: none;
+.fare h1{
+    background-color:#F0FCDB ;
+    width: 190px;;
+    height: 150px;
+    position: absolute;
+    top: 400px; 
+     left: 80px; 
+     display: flex;
+justify-content: center;
+     align-items:end ;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.wel{
+    position: absolute;
+    left: 140px;
+    top:1850px;
+    
+}
+
+.far h1{
+background-color:#F0FCDB ;
+width: 190px;;
+height: 150px;
+position: absolute;
+top: 1850px; 
+ left: 300px; 
+ display: flex;
+justify-content: center;
+ align-items:end ;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.well{
+    position: absolute;
+    left: 360px;
+    top:1850px;
+}
+
+
+.cir img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 240px;
+    left: 840px;
+}
+
+.cle img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+}
+
+
+
+.are h1{
+    background-color:#F0FCDB ;
+    width: 190px;;
+    height: 150px;
+    position: absolute;
+    top: 1850px; 
+     left: 530px; 
+     display: flex;
+    justify-content: center;
+     align-items:end ;
+   padding-left: 12px;
+     font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .we{
+        position: absolute;
+        left: 600px;
+        top:1850px;
     }
 
 
 
 
-
-.iphon{
-    width: 1500px;
-    position: absolute;
-    top: 650px;
-    height: 600px;
-}
-
-
-
-
-.footer{
-    position: absolute;
-    text-align: center;
-    top: 1000px;;
-    left: 600px;
-    color: aliceblue;
-}
-
-.footer button{
-    background-color: rgb(92, 92, 165);
-    border: 2px solid black;
-    border-radius: 20px;
-    height: 50px;
-    width: 100px;
-}
+    .fa h1{
+        background-color:#F0FCDB ;
+        width: 190px;;
+        height: 150px;
+        position: absolute;
+        top: 1850px; 
+         left: 750px; 
+         display: flex;
+        justify-content: center;
+         align-items:end ;
+         font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .el{
+            position: absolute;
+            left: 800px;
+            top:1850px;
+        }
 
 
 
-.ipho{
-    width: 1450px;
-    position: absolute;
-    top: 1200px;
-    height: 500px;
-}
-
-
-
-
-.for{
-    position: absolute;
-    text-align: center;
-    top: 1500px;;
-    left: 610px;
-    color: rgb(25, 27, 29);
-}
-
-.for button{
-    background-color: rgb(92, 92, 165);
-    border: 2px solid black;
-    border-radius: 20px;
-    height: 50px;
-    width: 100px;
-}
-
-
-
-
-.pho{
-    width: 750px;
-    position: absolute;
-    top: 1700px;
-    height: 500px;
-    display: flex;
-}
-
-
-
-
-.of{
-    position: absolute;
-    text-align: center;
-    top: 1700px;;
-    left: 200px;
-    color: rgb(25, 27, 29);
-}
-
-.of button{
-    background-color: rgb(92, 92, 165);
-    border: 2px solid black;
-    border-radius: 20px;
-    height: 50px;
-    width: 100px;
-}
-
-
-.ho{
-    width: 750px;
-    position: absolute;
-    top: 1700px;
-    height: 500px;
-    display: flex;
-    left: 682px;
-}
-
-
-
-
-.f{
-    position: absolute;
-    text-align: center;
-    top: 1950px;;
-    left: 1000px;
-    color: rgb(229, 237, 245);
-}
-
-.f button{
-    background-color: rgb(92, 92, 165);
-    border: 2px solid rgb(15, 14, 14);
-    border-radius: 20px;
-    height: 50px;
-    width: 100px;
-}
-
-
-
-
-
-.call{
-    width: 700px;
-    position: absolute;
-    top: 2210px;
-    height: 500px;
-    display: flex;
+        .a h1{
+            background-color:#F0FCDB ;
+            width: 190px;;
+            height: 150px;
+            position: absolute;
+            top: 1850px; 
+             left: 980px; 
+             display: flex;
+            justify-content: center;
+             align-items:end ;
+             font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .l{
+                position: absolute;
+                left: 1030px;
+                top:1850px;
+            }
     
-}
+            .f h1{
+                background-color:#F0FCDB ;
+                width: 190px;;
+                height: 150px;
+                position: absolute;
+                top: 1850px; 
+                 left: 1200px; 
+                 display: flex;
+                justify-content: center;
+                 align-items:end ;
+                 font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                .e{
+                    position: absolute;
+                    left: 1270px;
+                    top:1850px;
+                }
+        
+        
+           
+           .span img{
+           position: absolute;
+           top: 2050px;
+           width: 400px;
+           height: 280px;
+           left: 100px;
+           border-radius: 10px;
+           z-index: -auto;
+
+           }
 
 
+           .Daily h5{
+               position: absolute;  
+        top: 2100px;  
+           left: 100px;
+        font-size: x-large;
+        color: white;
+        } 
 
 
-.that{
+.pan img{
     position: absolute;
-    text-align: center;
-    top: 2200px;;
-    left: 200px;
-    color: rgb(31, 34, 36);
+    top: 2050px;
+    width: 400px;
+    height: 280px;
+    left: 520px;
+    border-radius: 10px;
+    z-index: -auto;
+}
+        
+
+.an img{
+    position: absolute;
+    top: 2050px;
+    width: 400px;
+    height: 280px;
+    left: 950px;
+    border-radius: 10px;
+    z-index: -auto;
+}
+      
+.k img{
+    position: absolute;
+    top: 2380px;
+    width: 620px;
+    height: 400px;
+    left: 100px;
+    border-radius: 50px;
+
 }
 
-.that button{
-    background-color: rgb(92, 92, 165);
-    border: 2px solid rgb(15, 14, 14);
-    border-radius: 20px;
+
+.k{
+    background-color: red;
+}
+
+
+
+.dn button{
     height: 50px;
-    width: 150px;
-}
-
-
-
-
-.what{
-    width: 800px;
     position: absolute;
-    top: 2200px;
-    height: 520px;
-    display: flex;
-    left: 710px;
-    
+    background-color: #8DC63F;
+border-color: #8DC63F;
+    top: 2250px;
+    left: 100px;
+    align-items: center;
+    width: 400px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: large;
 }
 
 
 
 
-.yeah{
-    position: absolute;
-    text-align: center;
-    top: 2200px;;
-    left: 1000px;
-    color: rgb(31, 34, 36);
-}
 
-.yeah button{
-    background-color: rgb(92, 92, 165);
-    border: 2px solid rgb(15, 14, 14);
-    border-radius: 20px;
+
+
+.don{
     height: 50px;
-    width: 150px;
-}
-
-
-.list p{
     position: absolute;
-    top: 2700px;
+    background-color: #8DC63F;
+border-color: #8DC63F;
+    top: 2250px;
+    left: 520px;
+    align-items: center;
+    width: 400px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: large;
 }
-.para{
+
+
+
+
+.mw{
+    height: 50px;
     position: absolute;
-    top: 2730px;
+    background-color: #8DC63F;
+border-color: #8DC63F;
+    top: 2250px;
+    left: 950px;
+    align-items: center;
+    width: 400px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: large;
+}
+
+.heading10{
+position: absolute;
+top: 2375px;
+left: 800px;
+
 }
 
 
-.paragraph{
+.heading10image{
     position: absolute;
-top: 2850px;
-}
-
-
-.paragraph3{
-    position: absolute;
-    top: 2890px;
-}
-
-.paragraph4{
-    position: absolute;
-    top: 2930px ;
-}
-
-
-.paragraph5{
-    position: absolute;
-    top: 2970px;
-}
-
-.paragraph6{
-position: absolute;
-top: 3030px;
-
-}
-
-.paragraph7{
-position: absolute;
-top: 3050px;
-
-}
-
-.paragraph8{
-    position: absolute;
-    top: 3090px;
-}
-
-
-.paragraph9{
-position: absolute;
-top: 3130px;
-font-size: small;
-}
-
-.paragraph10{
-position: absolute;
-top: 3450px;
-
-}
-
-.paragraph11{
-position: absolute;
-top: 3500px;
-font-size: small;
-}
-
-
-.paragraph12{
-position: absolute;
-top: 3090px;
-left: 300px;
-}
-
-
-.paragraph13{
-position: absolute;
-top: 3130px;
-left: 300px;
-font-size: small;
-}
-
-
-.paragraph14{
-position: absolute;
-top: 3250px;
-left: 290px;
-}
-
-.paragraph15{
-position: absolute;
-top: 3300px;
-left: 290px;
-}
-
-.paragraph16{
-position: absolute;
-top: 3090px;
-left: 550px;
-}
-
-.paragraph17{
-position: absolute;
-top:3150px ;
-left:550px ;
-}
-
-.paragraph18{
-
-position: absolute;
-top: 3090px;
+top: 2430px;
 left: 750px;
 
+background-color: #EEEEEE;
 }
 
-.paragraph19{
+.Hepatitis h1{
+    position: absolute;
+    top: 2420px;
+    left: 820px;
+    color: #0D6DB7;
+}
+
+.Hepatitis p{
+    position: absolute;
+    top: 2460px;
+    left: 820px;
+}
+
+
+.heading11image{
+    position: absolute;
+    top: 2500px;
+    left: 750px;
+    
+    background-color: #EEEEEE;
+}
+
+.house h1{
+    position: absolute;
+    top: 2500px;
+    left: 820px;
+    color: #0D6DB7;
+}
+
+.house p{
+    position: absolute;
+    top: 2540px;
+    left: 820px;
+   
+}
+
+
+
+.heading12image{
+    position: absolute;
+    top: 2580px;
+    left: 750px;
+    
+    background-color: #EEEEEE;
+}
+
+.itliteracy h1{
+    position: absolute;
+    top: 2580px;
+    left: 820px;
+    color: #0D6DB7;
+}
+
+
+.itliteracy p{
+    position: absolute;
+    top: 2620px;
+    left: 820px;
+    
+}
+
+
+
+
+
+.heading13image{
+    position: absolute;
+    top: 2670px;
+    left: 750px;
+    
+    background-color: #EEEEEE;
+}
+
+.tharparkar h1{
+    position: absolute;
+    top: 2670px;
+    left: 820px;
+    color: #0D6DB7;
+}
+
+
+.tharparkar p{
+    position: absolute;
+    top: 2710px;
+    left: 820px;
+ 
+}
+
+
+
+
+
+
+.multiline img{
 position: absolute;
-top: 3150px;
-left: 760px;
-font-size: small;
+top: 2800px;
+left: 80px;
+border-radius: 10px;
+width: 1300px;
+height: 450px;
 }
 
-.paragraph20{
+
+
+
+.dish img{
     position: absolute;
-    top: 3200px;
-    left: 760px;
+    top: 2900px;
+    left: 200px;
+    /* border-radius: 10px; */
+    /* width: 1300px; */
+    /* height: 450px; */
 }
 
 
-.paragraph21{
+
+
+.head{
+position: absolute;
+top: 2970px;
+left: 200px;
+}
+
+.headeo{
     position: absolute;
-    top: 3250px;
-    left: 760px;
-    font-size: small;
+top: 3000px;
+left: 200px;
 }
 
-.paragraph22{
+
+.ahead{
     position: absolute;
-    top: 3320px;
-    left: 760px;
+top: 3030px;
+left: 200px;
 }
 
-.paragraph23{
+
+
+
+
+
+
+
+.he img{
     position: absolute;
-    top: 3370px;
-    left: 760px;
-font-size: small;
-
+    top: 2900px;
+    left: 500px;
+    /* border-radius: 10px; */
+    /* width: 1300px; */
+    /* height: 450px; */
 }
 
-.paragraph24{
+
+
+
+.ehead{
+position: absolute;
+top: 2970px;
+left: 500px;
+}
+
+.heado{
     position: absolute;
-    top: 3480px;
-    left: 760px;
-
+top: 3000px;
+left: 500px;
 }
 
-.paragraph25{
+
+.aehead{
     position: absolute;
-    top: 3530px;
-    left: 760px;
-font-size: small;
+top: 3030px;
+left: 500px;
 }
 
 
-.paragraph26{
+
+.oe img{
     position: absolute;
-    top: 3090px;
-    left: 1050px;
+    top: 2900px;
+    left: 800px;
+    /* border-radius: 10px; */
+    /* width: 1300px; */
+    /* height: 450px; */
 }
 
-.paragraph27{
+
+
+
+.eead{
+position: absolute;
+top: 2970px;
+left: 800px;
+}
+
+.hado{
     position: absolute;
-    top: 3150px;
-    left: 1050px;
-font-size: small;
+top: 3000px;
+left: 800px;
 }
 
-.paragraph28{
+
+.ead{
     position: absolute;
-    top: 3630px;
-    left: 0px;
-font-size: small;
+top: 3030px;
+left: 800px;
 }
 
 
 
 
+.o img{
+    position: absolute;
+    top: 2900px;
+    left: 1100px;
+    /* border-radius: 10px; */
+    /* width: 1300px; */
+    /* height: 450px; */
+}
 
 
 
 
+.d{
+position: absolute;
+top: 2970px;
+left: 1100px;
+}
+
+.ado{
+    position: absolute;
+top: 3000px;
+left: 1100px;
+}
+
+
+.ad{
+    position: absolute;
+top: 3030px;
+left: 1100px;
+}
+
+.testimonials{
+    position: absolute;
+    top: 3300px ;
+    left: 650px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #8DC63F;
+}
+
+
+.whatthey{
+    position: absolute;
+    top: 3350px;
+    left: 620px;
+}
 
 
 
 
+.arshad{
+    position: relative;
+    top: 3300px;
+    background-color: #EEEEEE;
+    width: 1300px;
+    height: 200px;
+    left: 80px;
+    right: 100px;
+}
 
 
 
 
+.arshad img{
+    top: 10px;
+position: absolute;
+left: 620px;
+    width: 70px;
+    border-radius: 100px;
+    height: 70px;
+}
+
+
+.arshad p{
+   /* left: 680px; */
+    /* width: 70px; */
+    /* border-radius: 100px; */
+    /* height: 70px; */
+position: absolute;
+top: 150px;
+
+}
+
+
+.uptades{
+    position: absolute;
+left: 650px;
+    top: 3750px; ;
+}
+
+
+
+.video iframe{
+    position: absolute;
+    top: 3850px;
+    width:300px;
+    height: 250px;
+    left: 70px;
+}
+
+
+
+.iframe iframe{
+    position: absolute;
+    top: 3850px;
+    width:300px;
+    height: 250px;
+    left: 420px;
+}
+
+
+
+.youtube iframe{
+    position: absolute;
+    top: 3850px;
+    width:300px;
+    height: 250px;
+    left: 750px;
+}
+
+
+.yotvideo iframe{
+    position: absolute;
+    top: 3850px;
+    width:300px;
+    height: 250px;
+    left: 1100px;
+}
+
+
+.youvideo iframe{
+    position: absolute;
+    top: 4150px;
+    width:300px;
+    height: 250px;
+    left: 70px;
+}
+
+
+
+
+.wow iframe{
+    position: absolute;
+    top: 4150px;
+    width:300px;
+    height: 250px;
+    left: 420px;
+}
+
+.ow iframe{
+    position: absolute;
+    top: 4150px;
+    width:300px;
+    height: 250px;
+    left: 750px;
+}
+
+.hoth iframe{
+    position: absolute;
+    top: 4150px;
+    width:300px;
+    height: 250px;
+    left: 1100px;
+}
+
+
+
+.news{
+    position: absolute;
+    top: 4450px;
+    left: 650px;
+}
+
+
+
+.saylanie img{
+position: absolute;
+top: 4600px;
+left: 80px;
+width: 300px;
+height: 250px;
+}
+
+
+
+.ghoas img{
+    position: absolute;
+    top: 4600px;
+    left: 420px;
+    width: 300px;
+    height: 250px;
+}
+
+.ahmed img{
+    position: absolute;
+    top: 4600px;
+    left: 780px;
+    width: 300px;
+    height: 250px;
+}
+
+
+
+
+.hmed img{
+    position: absolute;
+    top: 4600px;
+    left: 1120px;
+    width: 300px;
+    height: 250px;
+}
+
+
+
+#image img{
+    position: absolute;
+    top: 4900px;
+    left: 80px;
+    width: 1340px;
+    height: 220px;
+}
+
+
+#image h1{
+    position: absolute;
+    top: 4920px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+left: 600px;
+}
+
+#image input{
+  position: absolute;
+    top: 4990px;
+    left: 550px;
+    width: 300px;
+    height: 50px;
+}
+
+
+#image button{
+    position: absolute;
+top: 5050px;
+left: 550px;
+width: 300px;;
+height: 50px;
+
+
+
+
+}
+
+.endofwebsite img{
+    position: absolute;
+    top: 4780px;
+    width: 1420px;
+}
+
+
+.mass img{
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 4850px;
+    left: 70px;
+}
+
+
+.endofwebsite{
+    position: relative;
+}
+
+
+.ul {
+    position: absolute;
+    top: 5200px;
+    left: 600px;
+    color: white;
+}
+
+.ul li{
+    gap:20px;
+}
+
+
+.u {
+    position: absolute;
+    top: 5200px;
+    left: 900px;
+    color: white;
+}
+
+
+.conTact{
+    position: absolute;
+    top: 5200px;
+    left: 1100px;
+    color: white;
+}
+
+.acca img{
+    position: absolute;
+    top: 5400px;
+    /* background-color: #494949; */
+left: 500px;
+}
+
+.ress p{
+position: absolute;
+top: 5700px;
+color: #EEEEEE;
+left: 530px;
+}
+    
+
+.copyright{
+    position: absolute;
+    top: 5800px;
+    left: 520px;
+color: #EEEEEE;
+}
+
+
+.insta img{
+    position: absolute;
+    top: 5320px;
+    left: 120px;
+    width: 20px;
+    background-color: #424242;
+}
+
+
+.tiktok img{
+    position: absolute;
+    top: 5320px;
+    left: 150px;
+    width: 20px;
+    background-color: #424242;
+}
+
+
+.facebook img{
+    position: absolute;
+    top: 5310px;
+    left: 180px;
+    width: 40px;
+    height: 40px;
+    background-color: #424242;
+}
 
 
 
